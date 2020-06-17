@@ -1,0 +1,1223 @@
+/*media qu start*/
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media(max-width: 767px) {
+    .content {
+        margin: 0 15px;
+    }
+}
+
+
+@media(min-width: 320px) and (max-width: 575px) {
+
+    /*banner part start*/
+    #banner .banner-part .slider .slider-1 {
+
+        width: 100%;
+        height: 400px;
+    }
+
+
+    #banner .banner-part .slider .slider-1 .overlay .container {
+
+        top: 25%;
+
+    }
+
+    #banner .banner-part .slider .slider-1 .overlay a i {
+
+        font-size: 35px;
+    }
+
+    #banner .banner-part .slider .slider-1 .overlay h1 {
+
+        font-size: 12px;
+
+        padding: 10px 0;
+    }
+
+    #banner .banner-part .slider .slider-1 .overlay p {
+
+        font-size: 30px;
+
+        padding-top: 15px;
+        letter-spacing: 1px;
+    }
+
+
+    /*banner part end*/
+    /*about us part start*/
+    #about {
+        margin-top: 60px;
+        margin-bottom: 190px;
+    }
+
+    #about .about-part .left_img {
+
+        bottom: -292px;
+
+    }
+
+    #about .about-part .left_img img {
+        width: 400px;
+        height: 400px;
+    }
+
+    #about .about-part .content h3 {
+        color: #636363;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        padding-top: 330px;
+        padding-bottom: 20px;
+    }
+
+    #about .about-part .content h4 {
+        color: #CBB3A3;
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    #about .about-part .content h4 span {
+        color: #636363;
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Dancing Script', cursive;
+    }
+
+
+    #about .about-part .content p {
+        color: #323232;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+
+
+    /*about us part end*/
+    /*our gallery part start*/
+    #gallery {
+        background: #F8F7F5;
+        padding: 70px 0px;
+    }
+
+    #gallery .gallery-part .heading h2 {
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 300;
+        font-size: 38px;
+        color: #1A1917;
+    }
+
+    #gallery .gallery-part .heading img {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    #gallery .gallery-part .gallery_img img {
+        border: 7px solid #FFFFFE;
+    }
+
+    /*our gallery part end*/
+    /*our services start*/
+    #services {
+        padding-bottom: 80px;
+        background: #EDEDEB;
+    }
+
+    #services .services-part .services-item {
+        position: relative;
+    }
+
+    #services .services-part .services-item_2 {
+        position: absolute;
+        left: -180px;
+        top: 50px;
+        background: #ffffff;
+    }
+
+    #services .services-part .inner-border {
+        border: 10px solid #ffffff;
+        box-shadow: inset 0px 0px 0px 1px #A9897B;
+        box-sizing: border-box;
+    }
+
+    #services .services-part .services-item img {
+        width: 560px;
+        height: 740px;
+    }
+
+    #services .services-part .services-item_2 .contact h5 {
+        color: #333333;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+    }
+
+    #services .services-part .services-item_2 .contact h2 {
+        color: #333333;
+        padding-left: 170px;
+        padding-right: 170px;
+        padding-bottom: 10px;
+        font-size: 32px;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+    }
+
+    #services .services-part .services-item_2 .contact p {
+        color: #333333;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+    }
+
+    #services .services-part .services-item_2 .form-part .form-row .form-group input {
+        width: 100%;
+        height: 42px;        
+        border: 1px solid #8F8F8F;
+    }
+
+    #services .services-part .services-item_2 .form-part .form-group input {
+        width: 640px;
+        height: 150px;        
+        border: 1px solid #8F8F8F;
+        margin-bottom:
+    }
+
+    #services .services-part .services-item_2 .form-part button {
+        background: #DDE2E6;
+        border: #DDE2E6;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-bottom: 30px;
+        color: #26292E;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 18px;
+    }
+
+    /*our services end*/
+    /*client part start*/
+
+    #client .client_part {
+        background: #EDEDEB;
+        position: relative;
+    }
+
+    #client .client_part .link a {
+        color: #0D0C0B;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 18px;
+        background: #ffffff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+        position: absolute;
+        top: 85%;
+        left: 35%;
+    }
+
+    /*client part start*/
+    /*touch part start*/
+    #touch .touch_part {
+        background: #F8F7F5;
+    }
+
+    #touch .touch_part .menu a {
+        color: #0D0C0B;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 18px;
+        padding-right: 30px;
+    }
+
+    #touch .touch_part .log img {
+        padding-top: 50px;
+    }
+
+    #touch .touch_part .log h3 {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 3px;
+    }
+
+    #touch .touch_part .log h6 {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 3px;
+        padding-bottom: 30px;
+    }
+
+    #touch .touch_part .social_media a {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        padding-right: 15px;
+    }
+
+    #touch .touch_part .address h6 {
+        color: #333333;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    #touch .touch_part .address p {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 28px;
+    }
+
+    #touch .touch_part .address h5 {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 28px;
+    }
+
+    #touch .touch_part .address h4 {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+
+    #touch .touch_part .keepintouch h6 {
+        color: #333333;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    #touch .touch_part .formm .form-group input {
+        color: #333333;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        border: 1px solid black;
+    }
+
+    #touch .touch_part .formm button {
+        background: #B1846C;
+        border: #B1846C;
+        color: #fff;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        letter-spacing: 1px;
+        padding-left: 150px;
+        padding-right: 112px;
+        padding-top: 10px;
+    }
+
+    /*touch part end*/
+    /*fotter part start*/
+    #fotter .fotter-part {
+        background: #fff;
+    }
+
+    #fotter .fotter-part h2 {
+        padding: 20px 0px;
+        color: #b2b2b2;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    #fotter .fotter-part h2 span a {
+        color: #b2b2b2;
+        text-decoration: underline;
+    }
+
+    /*fotter part end*/
+
+    /*buttom to up start*/
+    .top_to i {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 30px;
+        right: 7px;
+        bottom: 50px;
+    }
+
+    /*buttom to end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /*navbar start*/
+    #head .head-part {
+        background: #F8F7F5;
+    }
+
+    #head .head-part .menu-item a h3 {
+        color: #B1846C;
+        font-family: 'Lato', sans-serif;
+        padding-top: 25px;
+        font-weight: 700;
+    }
+
+    #head .head-part .menu-item a h5 {
+        color: #B1846C;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12PX;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 25px;
+    }
+
+    #head .head-part .menu-item nav .navbar-nav .nav-item .nav-link {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 0 15px;
+        color: #222222;
+        line-height: 60px;
+        transition: all linear 0.3s;
+        position: relative;
+    }
+
+    #head .head-part .menu-item nav .navbar-nav .nav-item .nav-link:hover {
+
+        color: #B1846C;
+    }
+
+    #head .head-part .menu-item nav .navbar-nav .nav-item .nav-link:after {
+        position: absolute;
+        content: '';
+        width: calc(0% - 30px);
+        height: 2px;
+        background: #B1846C;
+        left: 15px;
+        bottom: 10px;
+        transition: all linear 0.3s;
+    }
+
+    #head .head-part .menu-item nav .navbar-nav .nav-item .nav-link:hover:after,
+    #head .head-part .menu-item nav .navbar-nav .nav-item .nav-link.active:after {
+        width: calc(100% - 30px);
+    }
+
+    #head .head-part .menu-item nav .navbar-nav .nav-item:last-child .nav-link:after {
+
+        border: 2px solid #B1846C;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        left: -0.3px;
+        padding-left: 70px;
+        padding-right: 58px;
+        background: none;
+    }
+
+
+    /*navbar end*/
+    /*banner part start*/
+    #banner .banner-part .slider .slider-1 {
+        background: url(../images/window-3042834_960_720.webp) no-repeat center;
+        background-size: cover;
+        display: inline-block;
+    }
+
+    #banner .banner-part .slider .slider-1 .overlay {
+        height: 100vh;
+        background: rgba(151, 146, 142, 0.7);
+        position: relative;
+    }
+
+    #banner .banner-part .slider .slider-1 .overlay .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    #banner .banner-part .slider .slider-1 .overlay a i {
+        color: #DDE2E6;
+        font-weight: 300;
+        font-size: 70px;
+    }
+
+    #banner .banner-part .slider .slider-1 .overlay h1 {
+        color: #F7F3F0;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        padding: 20px 0;
+    }
+
+    #banner .banner-part .slider .slider-1 .overlay p {
+        color: #FFFFFD;
+        font-size: 60px;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        padding-top: 25px;
+        letter-spacing: 3px;
+    }
+
+
+    /*banner part end*/
+    /*about us part start*/
+    #about {
+        margin-top: 60px;
+        margin-bottom: 190px;
+    }
+
+    #about .about-part .left_img {
+        position: absolute;
+        bottom: -292px;
+        left: 0;
+    }
+
+    #about .about-part .left_img img {
+        width: 581px;
+        height: 392px;
+    }
+
+    #about .about-part .content h3 {
+        color: #636363;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    #about .about-part .content h4 {
+        color: #CBB3A3;
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    #about .about-part .content h4 span {
+        color: #636363;
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Dancing Script', cursive;
+    }
+
+
+    #about .about-part .content p {
+        color: #323232;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+
+
+    /*about us part end*/
+    /*our gallery part start*/
+    #gallery {
+        background: #F8F7F5;
+        padding: 70px 0px;
+    }
+
+    #gallery .gallery-part .heading h2 {
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 300;
+        font-size: 38px;
+        color: #1A1917;
+    }
+
+    #gallery .gallery-part .heading img {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    #gallery .gallery-part .gallery_img img {
+        border: 7px solid #FFFFFE;
+    }
+
+    /*our gallery part end*/
+    /*our services start*/
+    #services {
+        padding-bottom: 80px;
+        background: #EDEDEB;
+    }
+
+    #services .services-part .services-item {
+        position: relative;
+    }
+
+    #services .services-part .services-item_2 {
+        position: absolute;
+        left: -180px;
+        top: 50px;
+        background: #ffffff;
+    }
+
+    #services .services-part .inner-border {
+        border: 10px solid #ffffff;
+        box-shadow: inset 0px 0px 0px 1px #A9897B;
+        box-sizing: border-box;
+    }
+
+    #services .services-part .services-item img {
+        width: 560px;
+        height: 740px;
+    }
+
+    #services .services-part .services-item_2 .contact h5 {
+        color: #333333;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+    }
+
+    #services .services-part .services-item_2 .contact h2 {
+        color: #333333;
+        padding-left: 170px;
+        padding-right: 170px;
+        padding-bottom: 10px;
+        font-size: 32px;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+    }
+
+    #services .services-part .services-item_2 .contact p {
+        color: #333333;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+    }
+
+    #services .services-part .services-item_2 .form-part .form-row .form-group input {
+        width: 100%;
+        height: 42px;        
+        border: 1px solid #8F8F8F;
+    }
+
+    #services .services-part .services-item_2 .form-part .form-group input {
+        width: 640px;
+        height: 150px;        
+        border: 1px solid #8F8F8F;
+        margin-bottom:
+    }
+
+    #services .services-part .services-item_2 .form-part button {
+        background: #DDE2E6;
+        border: #DDE2E6;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-bottom: 30px;
+        color: #26292E;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 18px;
+    }
+
+    /*our services end*/
+    /*client part start*/
+
+    #client .client_part {
+        background: #EDEDEB;
+        position: relative;
+    }
+
+    #client .client_part .link a {
+        color: #0D0C0B;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 18px;
+        background: #ffffff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 100px;
+        padding-right: 100px;
+        position: absolute;
+        top: 85%;
+        left: 35%;
+    }
+
+    /*client part start*/
+    /*touch part start*/
+    #touch .touch_part {
+        background: #F8F7F5;
+    }
+
+    #touch .touch_part .menu a {
+        color: #0D0C0B;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 18px;
+        padding-right: 30px;
+    }
+
+    #touch .touch_part .log img {
+        padding-top: 50px;
+    }
+
+    #touch .touch_part .log h3 {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 3px;
+    }
+
+    #touch .touch_part .log h6 {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 3px;
+        padding-bottom: 30px;
+    }
+
+    #touch .touch_part .social_media a {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        padding-right: 15px;
+    }
+
+    #touch .touch_part .address h6 {
+        color: #333333;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    #touch .touch_part .address p {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 28px;
+    }
+
+    #touch .touch_part .address h5 {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 28px;
+    }
+
+    #touch .touch_part .address h4 {
+        color: #D7C7BD;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+
+    #touch .touch_part .keepintouch h6 {
+        color: #333333;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    #touch .touch_part .formm .form-group input {
+        color: #333333;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        border: 1px solid black;
+    }
+
+    #touch .touch_part .formm button {
+        background: #B1846C;
+        border: #B1846C;
+        color: #fff;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        letter-spacing: 1px;
+        padding-left: 150px;
+        padding-right: 112px;
+        padding-top: 10px;
+    }
+
+    /*touch part end*/
+    /*fotter part start*/
+    #fotter .fotter-part {
+        background: #fff;
+    }
+
+    #fotter .fotter-part h2 {
+        padding: 20px 0px;
+        color: #b2b2b2;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    #fotter .fotter-part h2 span a {
+        color: #b2b2b2;
+        text-decoration: underline;
+    }
+
+}
+
+    /*fotter part end*/
+
+
+    /*Medium devices (tablets, 768px and up)*/
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+
+        /*navbar start*/
+        #head .head-part {
+            background: #F8F7F5;
+        }
+
+        #head .head-part .menu-item a h3 {
+            color: #B1846C;
+            font-family: 'Lato', sans-serif;
+            padding-top: 25px;
+            font-weight: 700;
+        }
+
+        #head .head-part .menu-item a h5 {
+            color: #B1846C;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12PX;
+            text-align: center;
+            padding-top: 8px;
+            padding-bottom: 25px;
+        }
+
+        #head .head-part .menu-item nav .navbar-nav .nav-item .nav-link {
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            padding: 0 15px;
+            color: #222222;
+            line-height: 60px;
+            transition: all linear 0.3s;
+            position: relative;
+        }
+
+        #head .head-part .menu-item nav .navbar-nav .nav-item .nav-link:hover {
+
+            color: #B1846C;
+        }
+
+        #head .head-part .menu-item nav .navbar-nav .nav-item .nav-link:after {
+            position: absolute;
+            content: '';
+            width: calc(0% - 30px);
+            height: 2px;
+            background: #B1846C;
+            left: 15px;
+            bottom: 10px;
+            transition: all linear 0.3s;
+        }
+
+        #head .head-part .menu-item nav .navbar-nav .nav-item .nav-link:hover:after,
+        #head .head-part .menu-item nav .navbar-nav .nav-item .nav-link.active:after {
+            width: calc(100% - 30px);
+        }
+
+        #head .head-part .menu-item nav .navbar-nav .nav-item:last-child .nav-link:after {
+
+            border: 2px solid #B1846C;
+            padding-top: 20px;
+            padding-bottom: 15px;
+            left: -0.3px;
+            padding-left: 70px;
+            padding-right: 58px;
+            background: none;
+        }
+
+
+        /*navbar end*/
+        /*banner part start*/
+        #banner .banner-part .slider .slider-1 {
+            background: url(../images/window-3042834_960_720.webp) no-repeat center;
+            background-size: cover;
+            display: inline-block;
+        }
+
+        #banner .banner-part .slider .slider-1 .overlay {
+            height: 100vh;
+            background: rgba(151, 146, 142, 0.7);
+            position: relative;
+        }
+
+        #banner .banner-part .slider .slider-1 .overlay .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        #banner .banner-part .slider .slider-1 .overlay a i {
+            color: #DDE2E6;
+            font-weight: 300;
+            font-size: 70px;
+        }
+
+        #banner .banner-part .slider .slider-1 .overlay h1 {
+            color: #F7F3F0;
+            font-weight: 500;
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            padding: 20px 0;
+        }
+
+        #banner .banner-part .slider .slider-1 .overlay p {
+            color: #FFFFFD;
+            font-size: 60px;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            padding-top: 25px;
+            letter-spacing: 3px;
+        }
+
+
+        /*banner part end*/
+        /*about us part start*/
+        #about {
+            margin-top: 60px;
+            margin-bottom: 190px;
+        }
+
+        #about .about-part .left_img {
+            position: absolute;
+            bottom: -292px;
+            left: 0;
+        }
+
+        #about .about-part .left_img img {
+            width: 581px;
+            height: 392px;
+        }
+
+        #about .about-part .content h3 {
+            color: #636363;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 400;
+            font-size: 30px;
+            padding-bottom: 20px;
+        }
+
+        #about .about-part .content h4 {
+            color: #CBB3A3;
+            font-family: 'Open Sans', sans-serif;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 18px;
+            padding-bottom: 20px;
+        }
+
+        #about .about-part .content h4 span {
+            color: #636363;
+            font-size: 14px;
+            font-weight: 300;
+            font-family: 'Dancing Script', cursive;
+        }
+
+
+        #about .about-part .content p {
+            color: #323232;
+            font-family: 'Lato', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 25px;
+            padding-bottom: 20px;
+        }
+
+
+        /*about us part end*/
+        /*our gallery part start*/
+        #gallery {
+            background: #F8F7F5;
+            padding: 70px 0px;
+        }
+
+        #gallery .gallery-part .heading h2 {
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 300;
+            font-size: 38px;
+            color: #1A1917;
+        }
+
+        #gallery .gallery-part .heading img {
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+
+        #gallery .gallery-part .gallery_img img {
+            border: 7px solid #FFFFFE;
+        }
+
+        /*our gallery part end*/
+        /*our services start*/
+        #services {
+            padding-bottom: 80px;
+            background: #EDEDEB;
+        }
+
+        #services .services-part .services-item {
+            position: relative;
+        }
+
+        #services .services-part .services-item_2 {
+            position: absolute;
+            left: -180px;
+            top: 50px;
+            background: #ffffff;
+        }
+
+        #services .services-part .inner-border {
+            border: 10px solid #ffffff;
+            box-shadow: inset 0px 0px 0px 1px #A9897B;
+            box-sizing: border-box;
+        }
+
+        #services .services-part .services-item img {
+            width: 560px;
+            height: 740px;
+        }
+
+        #services .services-part .services-item_2 .contact h5 {
+            color: #333333;
+            padding-top: 30px;
+            padding-bottom: 15px;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+        }
+
+        #services .services-part .services-item_2 .contact h2 {
+            color: #333333;
+            padding-left: 170px;
+            padding-right: 170px;
+            padding-bottom: 10px;
+            font-size: 32px;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+        }
+
+        #services .services-part .services-item_2 .contact p {
+            color: #333333;
+            padding-left: 160px;
+            padding-right: 160px;
+            padding-bottom: 40px;
+            font-size: 18px;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+        }
+
+        #services .services-part .services-item_2 .form-part .form-row .form-group input {
+            width: 100%;
+            height: 42px;            
+            border: 1px solid #8F8F8F;
+        }
+
+        #services .services-part .services-item_2 .form-part .form-group input {
+            width: 640px;
+            height: 150px;
+            
+            border: 1px solid #8F8F8F;
+            margin-bottom:
+        }
+
+        #services .services-part .services-item_2 .form-part button {
+            background: #DDE2E6;
+            border: #DDE2E6;
+            padding-left: 60px;
+            padding-right: 60px;
+            margin-bottom: 30px;
+            color: #26292E;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-size: 18px;
+        }
+
+        /*our services end*/
+        /*client part start*/
+
+        #client .client_part {
+            background: #EDEDEB;
+            position: relative;
+        }
+
+        #client .client_part .link a {
+            color: #0D0C0B;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-size: 18px;
+            background: #ffffff;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 100px;
+            padding-right: 100px;
+            position: absolute;
+            top: 85%;
+            left: 35%;
+        }
+
+        /*client part start*/
+        /*touch part start*/
+        #touch .touch_part {
+            background: #F8F7F5;
+        }
+
+        #touch .touch_part .menu a {
+            color: #0D0C0B;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-size: 18px;
+            padding-right: 30px;
+        }
+
+        #touch .touch_part .log img {
+            padding-top: 50px;
+        }
+
+        #touch .touch_part .log h3 {
+            color: #D7C7BD;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 700;
+            font-size: 36px;
+            letter-spacing: 3px;
+        }
+
+        #touch .touch_part .log h6 {
+            color: #D7C7BD;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 3px;
+            padding-bottom: 30px;
+        }
+
+        #touch .touch_part .social_media a {
+            color: #D7C7BD;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            padding-right: 15px;
+        }
+
+        #touch .touch_part .address h6 {
+            color: #333333;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 1px;
+            padding-top: 50px;
+            padding-bottom: 15px;
+        }
+
+        #touch .touch_part .address p {
+            color: #D7C7BD;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 300;
+            font-style: italic;
+            font-size: 28px;
+        }
+
+        #touch .touch_part .address h5 {
+            color: #D7C7BD;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 300;
+            font-style: italic;
+            font-size: 28px;
+        }
+
+        #touch .touch_part .address h4 {
+            color: #D7C7BD;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 300;
+            font-style: italic;
+            font-size: 28px;
+            padding-bottom: 30px;
+        }
+
+        #touch .touch_part .keepintouch h6 {
+            color: #333333;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 1px;
+            padding-top: 50px;
+            padding-bottom: 15px;
+        }
+
+        #touch .touch_part .formm .form-group input {
+            color: #333333;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 1px;
+            border: 1px solid black;
+        }
+
+        #touch .touch_part .formm button {
+            background: #B1846C;
+            border: #B1846C;
+            color: #fff;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            font-weight: 400;
+            font-size: 22px;
+            letter-spacing: 1px;
+            padding-left: 150px;
+            padding-right: 112px;
+            padding-top: 10px;
+        }
+
+        /*touch part end*/
+        /*fotter part start*/
+        #fotter .fotter-part {
+            background: #fff;
+        }
+
+        #fotter .fotter-part h2 {
+            padding: 20px 0px;
+            color: #b2b2b2;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        #fotter .fotter-part h2 span a {
+            color: #b2b2b2;
+            text-decoration: underline;
+        }
+
+        .col-lg-5.col-12.col-sm-12.p-0.bounceInRight.animated {
+            top: 290px;
+        }
+
+        /*fotter part end*/
+
+    }

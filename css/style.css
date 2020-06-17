@@ -1,0 +1,611 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+img {
+	vertical-align: middle
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+address,
+figure,
+figcaption {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: auto;
+}
+
+p {
+	line-height: 24px;
+}
+
+.bg {
+	background: cyan;
+}
+/*common css end*/
+.toggle {
+	color: #B1846C;
+	font-size: 30px;
+	outline: 0;
+
+}
+
+.navbar-toggler {
+	border: 3px solid #B1846C;
+
+}
+
+.navbar-toggler:focus {
+	outline: 0;
+}
+/*buttom to up start*/
+.top_to i{
+	width: 40px;
+	height: 40px;
+	background: #B1846C;
+	display: inline-block;
+	color: #fff;
+	font-size: 26px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	position: fixed;
+	right: 5px;
+	bottom: 50px;
+	cursor: pointer;
+	display: none;
+	transition: all linear 0.4s;
+}
+.top_to i:hover {
+	background: #fff;
+	color:#B1846C;
+	border: 1px solid transparent;
+	border-color: #B1846C;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+/*buttom to end*/
+
+/* preloader start*/
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+     background: #fff ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:50px;
+    height:30px;
+    position:fixed;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+   margin:-25px 0 0 -15px; /* is width and height divided by two */
+}
+
+.spinner {
+  margin: 0px auto;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #222222;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+/* preloader end */
+
+/*navbar start*/
+#head .head-part{
+    background: #F8F7F5;
+}
+#head .head-part .menu-item a h3 {
+    color: #B1846C;
+    font-family: 'Lato', sans-serif;
+    padding-top: 25px;
+    font-weight: 700;
+}
+#head .head-part .menu-item a h5 {
+    color: #B1846C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12PX;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 25px;
+}
+
+#head .head-part .menu-item nav .navbar-nav .nav-item .nav-link {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 0 15px;
+	color: #222222;
+	line-height: 60px;
+    transition: all linear 0.3s;
+	position: relative;
+}
+#head .head-part .menu-item nav .navbar-nav .nav-item .nav-link:hover{
+    
+    color: #B1846C;
+}
+
+#head .head-part .menu-item nav .navbar-nav .nav-item .nav-link:after {
+	position: absolute;
+	content: '';
+	width: calc(0% - 30px);
+	height: 2px;
+	background: #B1846C;
+	left: 15px;
+	bottom: 10px;
+	transition: all linear 0.3s;
+}
+
+#head .head-part .menu-item nav .navbar-nav .nav-item .nav-link:hover:after,
+#head .head-part .menu-item nav .navbar-nav .nav-item .nav-link.active:after {
+	width: calc(100% - 30px);
+}
+
+#head .head-part .menu-item nav .navbar-nav .nav-item:last-child .nav-link:after {
+
+    border: 2px solid #B1846C;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    left: -0.3px;
+    padding-left: 70px;
+    padding-right: 58px;
+    background: none;
+}
+
+
+/*navbar end*/
+/*banner part start*/
+#banner .banner-part .slider .slider-1 {
+	background: url(../images/window-3042834_960_720.webp) no-repeat center;
+	background-size: cover;
+	display: inline-block;
+}
+
+#banner .banner-part .slider .slider-1 .overlay {
+	height: 100vh;
+    background: rgba(151, 146, 142, 0.7);
+	position: relative;
+}
+
+#banner .banner-part .slider .slider-1 .overlay .container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#banner .banner-part .slider .slider-1 .overlay a i{
+	color: #DDE2E6;
+	font-weight: 300;
+	font-size: 70px;
+}
+
+#banner .banner-part .slider .slider-1 .overlay h1{
+	color: #F7F3F0;
+	font-weight: 500;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 0;
+}
+
+#banner .banner-part .slider .slider-1 .overlay p {
+	color: #FFFFFD;
+	font-size: 60px;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	padding-top: 25px;
+    letter-spacing: 3px;
+}
+
+
+/*banner part end*/
+/*about us part start*/
+#about {
+	margin-top: 60px;
+    margin-bottom: 190px;
+}
+#about .about-part .left_img{
+    position: absolute;
+    bottom: -292px;
+    left: 0;
+}
+#about .about-part .left_img img{
+    width: 581px;
+    height: 600px;
+}
+#about .about-part .content h3 {
+	color: #636363;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+#about .about-part .content h4 {
+	color: #CBB3A3;
+	font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+	font-weight: 300;
+	font-size: 18px;
+    padding-bottom: 20px;
+}
+#about .about-part .content h4 span {
+	color: #636363;
+	font-size: 14px;
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+#about .about-part .content p {
+	color: #323232;
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+
+/*about us part end*/
+/*our gallery part start*/
+#gallery {
+	background: #F8F7F5;
+	padding: 70px 0px;
+}
+
+#gallery .gallery-part .heading h2 {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+	font-weight: 300;
+	font-size: 38px;
+	color: #1A1917;
+}
+
+#gallery .gallery-part .heading img {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+#gallery .gallery-part .gallery_img img{
+    border: 7px solid #FFFFFE;
+}
+
+/*our gallery part end*/
+/*our services start*/
+#services {
+    padding-bottom: 80px;
+    background: #EDEDEB;
+}
+
+#services .services-part .services-item{
+    position: relative;
+}
+#services .services-part .services-item_2{
+    position: absolute;
+    left: -180px;
+    top: 50px;
+    background: #ffffff;
+}
+#services .services-part .inner-border {
+        border: 10px solid #ffffff;
+        box-shadow: inset 0px 0px 0px 1px #A9897B;
+        box-sizing: border-box;
+    }
+#services .services-part .services-item img{
+    width: 560px;
+    height: 740px;
+}
+#services .services-part .services-item_2 .contact h5{
+    color: #333333;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+#services .services-part .services-item_2 .contact h2{
+    color: #333333;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 10px;
+    font-size: 32px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+#services .services-part .services-item_2 .contact p{
+    color: #333333;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+#services .services-part .services-item_2 .form-part .form-row .form-group input {
+    width: 100%;
+	height: 42px;    
+    border: 1px solid #8F8F8F;
+    border-radius: 0;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.2em;
+}
+#services .services-part .services-item_2 .form-part .form-group input {
+    width: 640px;
+	height: 150px;    
+	border: 1px solid #8F8F8F;
+    margin-bottom: 
+}
+#services .services-part .services-item_2 .form-part button{
+    background: #DDE2E6;
+    border: #DDE2E6;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 30px;
+    color: #26292E;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 18px;
+}
+/*our services end*/
+/*client part start*/
+
+#client .client_part{
+    background: #EDEDEB;
+    position: relative;
+}
+#client .client_part .link a{
+    color: #0D0C0B;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 18px;
+    background: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: absolute;
+    top: 85%;
+    left: 35%;
+}
+/*client part start*/
+/*touch part start*/
+#touch .touch_part{
+    background: #F8F7F5;
+}
+#touch .touch_part .menu a{
+    color: #0D0C0B;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 18px;
+    padding-right: 30px;
+}
+#touch .touch_part .log img{
+    padding-top: 50px;
+}
+#touch .touch_part .log h3{
+    color: #D7C7BD;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+#touch .touch_part .log h6{
+    color: #D7C7BD;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+}
+#touch .touch_part .social_media a{
+    color: #D7C7BD;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-right: 15px;
+}
+#touch .touch_part .address h6{
+    color: #333333;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+#touch .touch_part .address p{
+    color: #D7C7BD;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 28px;
+}
+
+#touch .touch_part .address h5{
+    color: #D7C7BD;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 28px;
+}
+#touch .touch_part .address h4{
+    color: #D7C7BD;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+#touch .touch_part .keepintouch h6{
+    color: #333333;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+#touch .touch_part .formm .form-group input{
+    color: #333333;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    border-radius: 0; 
+}
+#touch .touch_part .formm button{
+    background: #B1846C;
+    border: #B1846C;
+    color: #fff;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-left: 150px;
+    padding-right: 112px;
+    padding-top: 10px;
+}
+/*touch part end*/
+/*fotter part start*/
+#fotter .fotter-part {
+	background: #fff;
+}
+
+#fotter .fotter-part h2 {
+	padding: 20px 0px;
+	color: #b2b2b2;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+#fotter .fotter-part h2 span a{
+    color: #b2b2b2;
+    text-decoration: underline;
+}
+
+textarea#inputMessage {
+    border-radius: 0;
+    height: 140px;
+    font-size: 1.2em;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    margin: 0;
+}
+
+.form-row.contact-form {
+    margin: 0 55px;
+}
+
+.btn-send-msg {
+    background: #dde2e6;
+    border-color: #dde2e6;
+    color: #26292e;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.2em;
+    line-height: 0;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+
+.btn-send-msg {
+    background: #dde2e6;
+}
+
+.btn-send-msg:hover {
+    background: #B1846C;
+    border-color: #B1846C;
+    color: #fff;
+}
+
+.btn-send-msg:focus, .btn-send-msg:active, #touch .touch_part .formm button:focus, .form-control:focus {
+    box-shadow: 0 0 0 .2rem #B1846C;
+}
+
+.gallery_img-box {
+    display: block;
+    text-align: center;
+}
+
+
+/*footer part end*/
+
